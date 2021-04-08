@@ -1,35 +1,35 @@
 body {
   font-family: "Monsterrat", sans-serif;
-}
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  padding-bottom: 10rem;
+  text-align: center;
 }
 .container-fluid {
-  padding: 3% 15% 4% 15%;
+  padding: 7% 15%;
 }
-
-h1 {
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
 }
-
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
+/* Title Section */
+#title {
+  padding-bottom: 10rem;
+  text-align: left;
 }
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 .title-information {
   width: 100%;
 }
@@ -42,6 +42,14 @@ h3 {
   margin-top: 5%;
 }
 
+.white-background {
+  background-color: #fff;
+}
+
+.colored-background {
+  background-color: #ff4c68;
+  color: #fff;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -72,7 +80,6 @@ h3 {
 /* Feature Section */
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 .feature-component {
@@ -101,7 +108,6 @@ h3 {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -112,11 +118,16 @@ h3 {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
 /* Press Section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding: 3%;
 }
 
@@ -125,38 +136,27 @@ h3 {
   margin: 0 40px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Pricing Section */
-
-#pricing {
-  padding: 6% 15%;
-  text-align: center;
-}
 
 .pricing-column {
   padding: 4% 2%;
 }
 
+.price-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* CTA Section */
 
 #cta {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: center;
   padding: 5% 15% 0% 15%;
-}
-
-.cta-title {
 }
 
 /* Footer Section */
 
 #footer {
-  background-color: #fff;
-  text-align: center;
   padding: 3% 15%;
 }
 
